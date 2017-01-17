@@ -1,29 +1,66 @@
 body {
     background-color: powderblue;
 }
+
 h1 {
     color: blue;
 }
+
 p {
     color: red;
 }
-#widget1{                                  
- height:100px;
- width:95px;
- background-color:#B80000;
- border-radius:4px;
- text-align:center;
- margin-left:132px;
- margin-bottom:50px;
- display: inline-block;
+
+#pie {      
+	background-color:white;
+	border-radius:4px;
+	text-align:center;
+	margin-left:100px;
+	margin-bottom:25px;
 }
 
-#widget2{                                  
- height:100px;
- width:95px;
- background-color:#B8FFFF;
- border-radius:4px;
- text-align:center;
- margin-left:132px;
- display: inline-block;
+#bar {     
+	background-color:white;
+	border-radius:4px;
+	text-align:center;
+	margin-left:100px;
+	margin-bottom:25px;
+}
+
+#line {     
+	background-color:white;
+	border-radius:4px;
+	text-align:center;
+	margin-left:100px;
+	margin-bottom:25px;
+}
+
+#general {     
+	background-color:white;
+	border-radius:4px;
+	text-align:center;
+	margin-left:100px;
+	margin-bottom:25px;
+}
+
+#area {     
+	background-color:white;
+	border-radius:4px;
+	text-align:center;
+	margin-left:100px;
+	margin-bottom:25px;
+}
+
+#donut {     
+	background-color:white;
+	border-radius:4px;
+	text-align:center;
+	margin-left:100px;
+	margin-bottom:25px;
+}
+
+div {
+    display: inline-block; 
+    width:200px; 
+    border:1px solid; 
+    vertical-align:top
 }
