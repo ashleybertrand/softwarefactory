@@ -64,3 +64,16 @@ div {
     border:1px solid; 
     vertical-align:top
 }
+
+wrapper.style2 {
+	display: inline-block; 
+    width:200px; 
+    vertical-align:top
+}
+
+ul {
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+}
+
