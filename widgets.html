@@ -15,6 +15,91 @@
 
 	<body>
 
+<!--TABS-->
+
+		<ul class="tab">
+		  	<li><a href="widgets.html">Variant A</a></li>
+		  	<li><a href="widgets.html">Variant B</a></li>
+		  	<li><a href="widgets.html">Variant C</a></li>
+		  	<!--<li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Variant C')">Variant C</a></li>-->
+		</ul>
+
+		<div id="Variant A" class="tabcontent">
+		  	
+		</div>
+
+		<div id="Variant B" class="tabcontent">
+		  	 
+		</div>
+
+		<div id="Variant C" class="tabcontent">
+		  	
+		</div>
+
+		<script>
+		function openCity(evt, variant) {
+		    // Declare all variables
+		    var i, tabcontent, tablinks;
+
+		    // Get all elements with class="tabcontent" and hide them
+		    tabcontent = document.getElementsByClassName("tabcontent");
+		    for (i = 0; i < tabcontent.length; i++) {
+		        tabcontent[i].style.display = "none";
+		    }
+
+		    // Get all elements with class="tablinks" and remove the class "active"
+		    tablinks = document.getElementsByClassName("tablinks");
+		    for (i = 0; i < tablinks.length; i++) {
+		        tablinks[i].className = tablinks[i].className.replace(" active", "");
+		    }
+
+		    // Show the current tab, and add an "active" class to the link that opened the tab
+		    document.getElementById(variant).style.display = "block";
+		    evt.currentTarget.className += " active";
+		}
+		</script>
+
+		<h1>Variant X</h1>
+
+<!--DROPDOWN MENU-->
+
+		<div class="dropdown">
+			<button class="dropbtn">Dropdown</button>
+		  	<div class="dropdown-content">
+		    	<a href="#">Details</a>
+		    	<a href="#">Genes Common</a>
+		    	<a href="#">ClinVar</a>
+		    	<a href="#">Genome Screenshot</a>
+		    	<a href="#">Effect</a>
+		    	<a href="#">Lolipop</a>
+		  	</div>
+		</div>
+
+		<script>
+		function openCity(evt, cityName) {
+		    // Declare all variables
+		    var i, tabcontent, tablinks;
+
+		    // Get all elements with class="tabcontent" and hide them
+		    tabcontent = document.getElementsByClassName("tabcontent");
+		    for (i = 0; i < tabcontent.length; i++) {
+		        tabcontent[i].style.display = "none";
+		    }
+
+		    // Get all elements with class="tablinks" and remove the class "active"
+		    tablinks = document.getElementsByClassName("tablinks");
+		    for (i = 0; i < tablinks.length; i++) {
+		        tablinks[i].className = tablinks[i].className.replace(" active", "");
+		    }
+
+		    // Show the current tab, and add an "active" class to the link that opened the tab
+		    document.getElementById(cityName).style.display = "block";
+		    evt.currentTarget.className += " active";
+		}
+		</script>
+
+		<p></p>
+
 <!--PIE GRAPH-->
 
 		<script type="text/javascript">
