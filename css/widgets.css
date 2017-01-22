@@ -1,0 +1,66 @@
+#pie {      
+	background-color:white;
+	border-radius:4px;
+	text-align:center;
+	margin-left:100px;
+	margin-bottom:25px;
+}
+
+#bar {     
+	background-color:white;
+	border-radius:4px;
+	text-align:center;
+	margin-left:100px;
+	margin-bottom:25px;
+}
+
+#line {     
+	background-color:white;
+	border-radius:4px;
+	text-align:center;
+	margin-left:100px;
+	margin-bottom:25px;
+}
+
+#general {     
+	background-color:white;
+	border-radius:4px;
+	text-align:center;
+	margin-left:100px;
+	margin-bottom:25px;
+}
+
+#area {     
+	background-color:white;
+	border-radius:4px;
+	text-align:center;
+	margin-left:100px;
+	margin-bottom:25px;
+}
+
+#donut {     
+	background-color:white;
+	border-radius:4px;
+	text-align:center;
+	margin-left:100px;
+	margin-bottom:25px;
+}
+
+div {
+    display: inline-block; 
+    width:200px; 
+    border:1px solid; 
+    vertical-align:top
+}
+
+wrapper.style2 {
+	display: inline-block; 
+    width:200px; 
+    vertical-align:top
+}
+
+ul {
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+}
