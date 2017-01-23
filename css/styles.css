@@ -2,8 +2,16 @@ body {
     background-color: powderblue;
 }
 
+
+
 h1 {
-    color: blue;
+    color: gray;
+}
+
+.page-header {
+padding-bottom: 9px;
+margin: 10px 0 45px;
+border-bottom: 1px solid #C7D1DD;
 }
 
 p {
@@ -58,17 +66,30 @@ p {
 	margin-bottom:25px;
 }
 
-div {
+#wrapper.style1 {
     display: inline-block; 
     width:200px; 
     border:1px solid; 
     vertical-align:top
 }
 
-wrapper.style2 {
-	display: inline-block; 
-    width:200px; 
-    vertical-align:top
+ #wrapper {
+    width: 100%;
+    background:#09192A;
+}
+
+#page-wrapper {
+	padding: 15px 15px;
+	min-height: 600px;
+    background: floralwhite;
+}
+
+#page-inner {
+    width:100%;
+    margin:10px 20px 10px 0px;
+    background-color:transparent;
+    padding:10px;
+    min-height:1200px;
 }
 
 ul {

@@ -1,0 +1,72 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+	width: 100%;
+	background:black;
+}
+
+#page-wrapper {
+	padding: 15px 15px;
+	min-height: 600px;
+    background: floralwhite;
+}
+
+#page-inner {
+    width:100%;
+    margin:10px 20px 10px 0px;
+    background-color:transparent;
+    padding:10px;
+    min-height:1200px;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+margin-top: 7px;
+margin-bottom: -5px;
+}
+
+/*---
+    Dashboard
+    ----*/
+
+.page-header {
+padding-bottom: 9px;
+margin: 10px 0 45px;
+border-bottom: 1px solid #C7D1DD;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+}
+
+/*---
+    Navigation
+    ----*/
+
+.navbar-default {
+border:0px solid black;   
+}
+
+.navbar-top {
+        z-index: 1;
+        position: absolute;
+        width: 260px;
+    }
+
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.nav > li {
+  position: relative;
+  display: block;
+}
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
