@@ -55,46 +55,47 @@
 		}
 		</script>
 
-		<h1>Variant X</h1>
-
-<!--DROPDOWN MENU-->
-
-		<div class="dropdown">
-			<button class="dropbtn">Select Widget</button>
-		  	<div class="dropdown-content">
-		    	<a href="#">Details</a>
-		    	<a href="#">Genes Common</a>
-		    	<a href="#">ClinVar</a>
-		    	<a href="#">Genome Screenshot</a>
-		    	<a href="#">Effect</a>
-		    	<a href="#">Lolipop</a>
-		  	</div>
-		</div>
-
-		<script>
-		function openCity(evt, cityName) {
-		    // Declare all variables
-		    var i, tabcontent, tablinks;
-
-		    // Get all elements with class="tabcontent" and hide them
-		    tabcontent = document.getElementsByClassName("tabcontent");
-		    for (i = 0; i < tabcontent.length; i++) {
-		        tabcontent[i].style.display = "none";
-		    }
-
-		    // Get all elements with class="tablinks" and remove the class "active"
-		    tablinks = document.getElementsByClassName("tablinks");
-		    for (i = 0; i < tablinks.length; i++) {
-		        tablinks[i].className = tablinks[i].className.replace(" active", "");
-		    }
-
-		    // Show the current tab, and add an "active" class to the link that opened the tab
-		    document.getElementById(cityName).style.display = "block";
-		    evt.currentTarget.className += " active";
-		}
-		</script>
-
 		<p></p>
+
+<!--GEAR MENU-->
+		<div id="Gear Menu"style="width:1350px;height:50px;border:1px solid #000;">
+
+<!--VARIANT MENU-->
+
+			<div class="dropdown">
+				<button class="dropbtn">Select Variant</button>
+			  	<div class="dropdown-content">
+			    	<a href="#">Variant A</a>
+			    	<a href="#">Variant B</a>
+			    	<a href="#">Variant C</a>
+			  	</div>
+			</div>	
+
+<!--EYE IMAGE-->
+
+			<img src="images\eye.jpg" alt="Eye" style="width:25px;height:20px;">	
+
+<!--WIDGET MENU-->
+
+			<div class="dropdown">
+				<button class="dropbtn">Add Widget</button>
+			  	<div class="dropdown-content">
+				  	<ul style="list-style-type:none">
+				    	<li><input type="checkbox" value="Details">Details</li>
+		                <li><input type="checkbox" value="Genes Common">Genes Common</li>
+		                <li><input type="checkbox" value="ClinVar">ClinVar</li>
+		                <li><input type="checkbox" value="Genome Screenshot">Genome Screenshot</li>
+		                <li><input type="checkbox" value="Effect">Effect</li>
+		                <li><input type="checkbox" value="Lolipop">Lolipop</li>
+		            </ul>
+			  	</div>
+			</div>
+
+<!--SETTINGS IMAGE-->
+
+			<img src="images\settings.jpg" alt="Settings" style="width:25px;height:20px;">
+
+		</div>
 
 	</body>
 
